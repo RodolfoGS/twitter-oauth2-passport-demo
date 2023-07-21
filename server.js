@@ -61,4 +61,5 @@ app.get(
 
 app.listen(3000, () => {
   console.log(`Listening on ${process.env.BASE_URL}`);
+  console.log(`Open in your browser: ${process.env.BASE_URL}/auth/twitter`)
 });
